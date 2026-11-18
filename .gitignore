@@ -1,0 +1,11 @@
+# Generated evidence stays local; the official bundle redacts its own copies.
+/artifacts/
+/out/
+/transcripts*.tar.gz
+.env
+.env.*
+!.env.example
+*wallet*.json
+*keypair*.json
+*.pem
+node_modules/
